@@ -7,4 +7,4 @@
 
 # Red5
 
-Ruby bindings for the [Star Wars API](http://swapi.co)
+Ruby bindings for the [Star Wars API](http://swapi.co). API likely to change massively as I work through this
