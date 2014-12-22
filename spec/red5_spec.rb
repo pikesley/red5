@@ -9,10 +9,17 @@ module Red_5
   end
 
   describe Films do
-    it 'finds a film' do
+    it 'finds a film', :vcr do
       film = Films.find 1
       expect(film['title']).to eq 'A New Hope'
       expect(film['episode_id']).to eq 4
+    end
+  end
+
+  describe People do
+    it 'finds a person', :vcr do
+      person = People.find 7 # Aunt Beru
+      expect(person['eye_color']).to eq 'blue'
     end
   end
 
@@ -23,10 +30,10 @@ module Red_5
     end
   end
 
-  describe People do
-    it 'finds a person', :vcr do
-      person = People.find 7
-      expect(person['eye_color']).to eq 'blue'
+  describe Species do
+    it 'finds a species', :vcr do
+      species = Species.find 8 # Mon Calamari
+      expect(species['classification']).to eq 'amphibian'
     end
   end
 end
