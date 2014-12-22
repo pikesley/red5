@@ -6,5 +6,9 @@ module Red_5
       person = People.find 7 # Aunt Beru
       expect(person['eye_color']).to eq 'blue'
     end
+
+    it 'gets the species for a person', :vcr do
+      expect(People.get_species 15).to eq 'Rodian'
+    end
   end
 end
