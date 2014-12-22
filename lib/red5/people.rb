@@ -1,12 +1,7 @@
 module Red_5
   class People < Entities
-
     def self.get_species id
-      data = self.find id
-      species = data['species']
-      resource = RestClient::Resource.new species[0]
-      j = JSON.parse resource.get.body
-      j['name']
+      JSON.parse((RestClient::Resource.new (self.find(id))['species'][0]).get.body)
     end
   end
 end

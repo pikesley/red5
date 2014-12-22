@@ -8,7 +8,7 @@ module Red_5
     end
 
     it 'gets the species for a person', :vcr do
-      expect(People.get_species 15).to eq 'Rodian'
+      expect(People.get_species(15)['name']).to eq 'Rodian'
     end
   end
 end
