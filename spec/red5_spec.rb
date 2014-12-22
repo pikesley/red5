@@ -43,4 +43,11 @@ module Red_5
       expect(starship['model']).to eq 'T-65 X-wing'
     end
   end
+
+  describe Vehicles do
+    it 'finds a vehicle', :vcr do
+      vehicle = Vehicles.find 18 # AT-AT
+      expect(vehicle['manufacturer']).to match /Kuat Drive Yards/
+    end
+  end
 end
