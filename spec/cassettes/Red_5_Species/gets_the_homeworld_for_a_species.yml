@@ -1,0 +1,157 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://swapi.co/api/species/3
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 301
+      message: MOVED PERMANENTLY
+    headers:
+      Date:
+      - Tue, 23 Dec 2014 11:56:51 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d310eb2b783ded1f80cd7c6e685b68ffc1419335810; expires=Wed, 23-Dec-15
+        11:56:50 GMT; path=/; domain=.swapi.co; HttpOnly
+      Location:
+      - http://swapi.co/api/species/3/
+      X-Frame-Options:
+      - SAMEORIGIN
+      Via:
+      - 1.1 vegur
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 19d460d296ca0a78-LHR
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Tue, 23 Dec 2014 11:56:50 GMT
+- request:
+    method: get
+    uri: http://swapi.co/api/species/3/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      Cookie:
+      - __cfduid=d310eb2b783ded1f80cd7c6e685b68ffc1419335810; domain=.swapi.co
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 23 Dec 2014 11:56:52 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Allow:
+      - GET, HEAD, OPTIONS
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept, Cookie
+      Via:
+      - 1.1 vegur
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 19d460d34e760a78-LHR
+      Content-Encoding:
+      - gzip
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA3yRW2rDMBBFtxL07USPiBC8jQYKLSUo8sQeIktCUmpM6d47
+        dlKaQt0PYXTOZXQZfzBvemA1ew7hgsAqZp3JGc9oTcHgyfSm740j00DG1n/j
+        DL4gHRLmHZJp4dgBtl0hp6QgnC/ojza4kDKxNpmRYGcw/cCTM/ZSrU4pDJ4k
+        jPDorlCt2gTgq9UIzoXhniQaXDPhBM3D+w7PkKOZ2mkxNehCD0NIriHSlRJr
+        zvNgIm5s4PTh0RkPJXOpOaXp0l5pDoWfujEhDrQT4hFCdERf/54xWy6304h/
+        AnvB2VvFzuj6vDRrllwuTbpp9b9e7HHTu7mFTWAKTGtRQuq1VGspDnJXa11v
+        5Ubvd0KIl+mHNPg7psRByXpLSbWRWt1j1+QWNpwjWIS51ecXAAAA//8DAFpH
+        /hJsAgAA
+    http_version: 
+  recorded_at: Tue, 23 Dec 2014 11:56:52 GMT
+- request:
+    method: get
+    uri: http://swapi.co/api/planets/14/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 23 Dec 2014 11:56:52 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d64e54d1f9e5c7d4549200b78f95f8c471419335812; expires=Wed, 23-Dec-15
+        11:56:52 GMT; path=/; domain=.swapi.co; HttpOnly
+      Allow:
+      - GET, HEAD, OPTIONS
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept, Cookie
+      Via:
+      - 1.1 vegur
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 19d460da37d30a78-LHR
+      Content-Encoding:
+      - gzip
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAAwAAAP//fJDdTsMwDEZfZcp1t/y0K1VegdtdgdBkWm/LliaR
+        k26qEO+OV5AQEpAbS8cn/py8iQAjCiseIZ/meb6ISlAsUFwM+4Tk4sBN0zKO
+        9OoK+G9ad5rx4HhAQWKgzUO7ZdR7N0K5Ty0Uk+vBMzwSXF2Z79oqFwgD0MCY
+        bxK4wPg8haPHanWIhLnkauXhglzIXZEyq3miA/S4v8FnXKsYppgmv6zLpNmq
+        5dwfgdkNGEoW9lmcSklWynyD5DZ9lFxkwpg8Sl1Ltv8ROiXFSyUOzo9/zlqa
+        sl3EnpD3W35N6WatzVqrna5tbaxSG20a3u+JI3FwPzWjdkbZbWd1t2ka86VN
+        5Nn5LTR5CFiy1I0U7x8AAAD//wMA/GEORsgBAAA=
+    http_version: 
+  recorded_at: Tue, 23 Dec 2014 11:56:52 GMT
+recorded_with: VCR 2.9.3
