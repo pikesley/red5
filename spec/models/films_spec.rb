@@ -11,5 +11,11 @@ module Red5
       expect(film['title']).to eq 'A New Hope'
       expect(film['episode_id']).to eq 4
     end
+
+    it 'finds ALL THE FILMS (even the shitty ones)', :vcr do
+      corpus = Films.all
+      expect(corpus.count).to eq 6
+      expect(corpus[0].class).to eq Films
+    end
   end
 end

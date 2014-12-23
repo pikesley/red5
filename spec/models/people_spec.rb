@@ -21,5 +21,11 @@ module Red5
       person = People.find 15 # Greedo
       expect(person.fetch_species[0]['name']).to eq 'Rodian'
     end
+
+    it 'finds ALL THE PEOPLE', :vcr do
+      everybody = People.all
+      expect(everybody.count).to eq 82
+      expect(everybody[0].class).to eq People
+    end
   end
 end
