@@ -8,7 +8,8 @@ module Red5
       begin
         self.new JSON.parse resource.get.body
       rescue RestClient::ResourceNotFound
-        raise Red5Exception.new "#{basename.singularize} ##{id} does not exist"
+        id = "##{id}" if id.is_a? Numeric
+        raise Red5Exception.new "#{basename.singularize} #{id} does not exist"
       end
     end
 

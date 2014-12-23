@@ -14,6 +14,13 @@ module Red5
           expect(exception.status).to eq 'Starship #999 does not exist'
         end
       end
+
+      it 'raises an exception on a ludicrous request', :vcr do
+        expect{ Starships.find 'lolwut' }.to raise_exception do |exception|
+          expect(exception).to be_a Red5Exception
+          expect(exception.status).to eq 'Starship lolwut does not exist'
+        end
+      end
     end
   end
 end
