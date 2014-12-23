@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-module Red_5
+module Red5
   describe People do
     it 'returns a person', :vcr do
       person = People.find 1

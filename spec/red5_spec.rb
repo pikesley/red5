@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-module Red_5
+module Red5
   describe Root do
     it 'has vehicles' do
       root = Root.all

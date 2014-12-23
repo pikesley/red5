@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-module Red_5
+module Red5
   describe Vehicles do
     it 'finds a vehicle', :vcr do
       vehicle = Vehicles.find 18 # AT-AT

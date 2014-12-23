@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-module Red_5
+module Red5
   describe Films do
     it 'returns a film', :vcr do
       expect(Films.first.class).to eq Films

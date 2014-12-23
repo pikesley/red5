@@ -1,4 +1,4 @@
-module Red_5
+module Red5
   class Planets < Entities
   end
 end

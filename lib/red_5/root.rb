@@ -1,4 +1,4 @@
-module Red_5
+module Red5
   class Root
     def self.all
       resource = RestClient::Resource.new "http://swapi.co/api/"

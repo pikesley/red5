@@ -1,0 +1,102 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://swapi.co/api/vehicles/18
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 301
+      message: MOVED PERMANENTLY
+    headers:
+      Date:
+      - Tue, 23 Dec 2014 13:54:03 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d7afcd21ee5027456eba2d5c8f27f97a81419342843; expires=Wed, 23-Dec-15
+        13:54:03 GMT; path=/; domain=.swapi.co; HttpOnly
+      Location:
+      - http://swapi.co/api/vehicles/18/
+      X-Frame-Options:
+      - SAMEORIGIN
+      Via:
+      - 1.1 vegur
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 19d50c821c810a78-LHR
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Tue, 23 Dec 2014 13:54:03 GMT
+- request:
+    method: get
+    uri: http://swapi.co/api/vehicles/18/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      Cookie:
+      - __cfduid=d7afcd21ee5027456eba2d5c8f27f97a81419342843; domain=.swapi.co
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 23 Dec 2014 13:54:03 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Frame-Options:
+      - SAMEORIGIN
+      Allow:
+      - GET, HEAD, OPTIONS
+      Vary:
+      - Accept, Cookie
+      Via:
+      - 1.1 vegur
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 19d50c82cc3d0a78-LHR
+      Content-Encoding:
+      - gzip
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA3RRwW4CIRD9FcJZRVatdm8mXpqml2YvbdNspji6RBbIwGpN
+        03/vsOnFpL3AMO/Nezz4kh56lLXcNtNtIyeyD3t05eycaJAIrBdb6gPhXjQE
+        PsVAufDADwcweSAkpj8OkMWO7BnFC9A+TcRDH5EsOLHDCJR79FmEg3iyzmag
+        q3jGhECmYy0TUm6tbw2b2JxYbvAnHy6eMYf+mDtuVfPR9bOF3IcUOxb3xzZF
+        xD2jdwXl+QvXKy4jpMSTSEVtOYJAx9AaiGBsvnJXz+djP/g09PDh8Nb4jJ01
+        DlvjWIoRXmFwWVzAnTgyW1gXymXf3ifyYF1fStnlHGul0gWinZmgeFMjqCrF
+        M//DCyXfxwSQx0DVXC+nuprqVaOrerGpq9XsfrHmO7+yTnmnG1pVNZo5utar
+        2Vov79aLQhuofOVfpr/pktIbJb9/AAAA//8DABtg9g0GAgAA
+    http_version: 
+  recorded_at: Tue, 23 Dec 2014 13:54:03 GMT
+recorded_with: VCR 2.9.3

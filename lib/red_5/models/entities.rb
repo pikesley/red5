@@ -1,4 +1,4 @@
-module Red_5
+module Red5
   class Entities
     def self.find id
       slug = self.name.split('::').last.downcase
@@ -7,6 +7,8 @@ module Red_5
       begin
         self.new JSON.parse resource.get.body
       rescue RestClient::ResourceNotFound
+        require 'pry'
+        binding.pry
         raise Red5Exception.new 'Entity does not exist'
       end
     end
@@ -40,7 +42,7 @@ module Red_5
 
           results = []
           url.each do |u|
-            results.push Red_5.fetch_results u
+            results.push Red5.fetch_results u
           end
 
           return results.first if expects_single_result

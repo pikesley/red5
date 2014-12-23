@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-module Red_5
+module Red5
   describe Planets do
     it 'finds a planet', :vcr do
       planet = Planets.find 2
