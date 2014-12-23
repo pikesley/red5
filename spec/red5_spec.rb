@@ -6,7 +6,5 @@ module Red5
       root = Root.all
       expect(root.keys).to include 'vehicles'
     end
-
-    it 'has OpenStruct-type lookups'
   end
 end
