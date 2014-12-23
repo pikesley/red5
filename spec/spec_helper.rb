@@ -1,4 +1,4 @@
-require 'red5'
+require 'red_5'
 require_relative 'support/vcr_setup'
 
 RSpec.configure do |config|
