@@ -17,9 +17,9 @@ module Red_5
       expect(person['id']).to eq 13
     end
 
-    #it 'gets the species for a person', :vcr do
-    #  person = People.find 15 # Greedo
-    #  expect(person.get_species['name']).to eq 'Rodian'
-    #end
+    it 'gets the species for a person', :vcr do
+      person = People.find 15 # Greedo
+      expect(person.get_species[0]['name']).to eq 'Rodian'
+    end
   end
 end

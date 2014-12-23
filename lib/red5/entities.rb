@@ -26,10 +26,21 @@ module Red_5
       if parts[0] == 'get'
         key = parts[1]
         url = self[key]
-        r = RestClient::Resource.new url
-        b = r.get.body
-        j = JSON.parse b
-        j
+
+        url = [url] unless url.class == Array
+        results = []
+        url.each do |u|
+          r = RestClient::Resource.new u
+          b = r.get.body
+          j = JSON.parse b
+          results.push j
+        end
+
+        unless self[key].class == Array
+          return results.first
+        end
+
+        results
       end
     end
   end
