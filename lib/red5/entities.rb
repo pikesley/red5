@@ -24,7 +24,12 @@ module Red_5
       parts = mname.split('_')
 
       if parts[0] == 'get'
-        JSON.parse (RestClient::Resource.new self[parts[1]]).get.body
+        key = parts[1]
+        url = self[key]
+        r = RestClient::Resource.new url
+        b = r.get.body
+        j = JSON.parse b
+        j
       end
     end
   end
