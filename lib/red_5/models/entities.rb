@@ -17,6 +17,28 @@ module Red5
       self.find 1
     end
 
+    def self.all
+      list = []
+      basename = self.name.split('::').last
+      slug = basename.downcase
+      resource = RestClient::Resource.new "http://swapi.co/api/#{slug}/?page=1"
+      has_more = true
+
+      while has_more
+        data = resource.get.body
+        j = JSON.parse data
+        list += j['results']
+
+        if j['next']
+          resource = RestClient::Resource.new j['next']
+        else
+          has_more = false
+        end
+      end
+
+      list
+    end
+
     def initialize data
       @data = data
       @data['id'] = @data['url'].split('/').last.to_i
