@@ -7,9 +7,14 @@ module Red_5
       expect(species['classification']).to eq 'amphibian'
     end
 
-    it 'gets the homeworld for a species', :vcr do
+    it 'finds a homeworld for a species', :vcr do
+      species = Species.find 9
+      expect(species['homeworld']).to eq 'http://swapi.co/api/planets/7/'
+    end
+
+    it 'fetches the homeworld for a species', :vcr do
       species = Species.find 3 # Wookie
-      expect(species.get_homeworld['name']).to eq 'Kashyyyk'
+      expect(species.fetch_homeworld['name']).to eq 'Kashyyyk'
     end
   end
 end

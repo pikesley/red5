@@ -24,20 +24,21 @@ module Red_5
       parts = mname.split('_')
 
       case parts[0]
-        when 'get'
+      when 'fetch'
           key = parts[1]
           url = self[key]
 
-          url = [url] unless url.class == Array
+          unless url.is_a? Array
+            expects_single_result = true
+            url = [url]
+          end
+
           results = []
           url.each do |u|
             results.push Red_5.fetch_results u
           end
 
-          unless self[key].class == Array
-            return results.first
-          end
-
+          return results.first if expects_single_result
           results
       end
     end
