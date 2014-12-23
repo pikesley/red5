@@ -31,7 +31,7 @@ module Red5
       parts = mname.split('_')
 
       case parts[0]
-      when 'fetch'
+        when 'fetch'
           key = parts[1]
           url = self[key]
 
@@ -47,6 +47,7 @@ module Red5
 
           return results.first if expects_single_result
           results
+
       end
     end
   end
