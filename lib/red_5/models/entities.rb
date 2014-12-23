@@ -36,7 +36,7 @@ module Red5
         end
       end
 
-      list
+      list.map { |i| self.new i }
     end
 
     def initialize data

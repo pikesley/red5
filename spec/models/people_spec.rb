@@ -23,7 +23,9 @@ module Red5
     end
 
     it 'finds ALL THE PEOPLE', :vcr do
-      expect(People.all.count).to eq 82
+      everybody = People.all
+      expect(everybody.count).to eq 82
+      expect(everybody[0].class).to eq People
     end
   end
 end
