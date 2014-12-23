@@ -19,7 +19,7 @@ http_interactions:
       message: MOVED PERMANENTLY
     headers:
       Date:
-      - Tue, 23 Dec 2014 14:22:11 GMT
+      - Tue, 23 Dec 2014 23:34:46 GMT
       Content-Type:
       - text/html; charset=utf-8
       Transfer-Encoding:
@@ -27,23 +27,23 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - __cfduid=df0a1ed34ef460f4111eea44ea9cff8401419344531; expires=Wed, 23-Dec-15
-        14:22:11 GMT; path=/; domain=.swapi.co; HttpOnly
-      Location:
-      - http://swapi.co/api/starships/lolwut/
+      - __cfduid=d8a2473e59278f54fd3164b969aa6a0811419377686; expires=Wed, 23-Dec-15
+        23:34:46 GMT; path=/; domain=.swapi.co; HttpOnly
       X-Frame-Options:
       - SAMEORIGIN
+      Location:
+      - http://swapi.co/api/starships/lolwut/
       Via:
       - 1.1 vegur
       Server:
       - cloudflare-nginx
       Cf-Ray:
-      - 19d535b8a00a0a78-LHR
+      - 19d85f2c3e270a72-LHR
     body:
       encoding: UTF-8
       string: ''
     http_version: 
-  recorded_at: Tue, 23 Dec 2014 14:22:11 GMT
+  recorded_at: Tue, 23 Dec 2014 23:34:46 GMT
 - request:
     method: get
     uri: http://swapi.co/api/starships/lolwut/
@@ -56,7 +56,7 @@ http_interactions:
       Accept-Encoding:
       - gzip, deflate
       Cookie:
-      - __cfduid=df0a1ed34ef460f4111eea44ea9cff8401419344531; domain=.swapi.co
+      - __cfduid=d8a2473e59278f54fd3164b969aa6a0811419377686; domain=.swapi.co
       User-Agent:
       - Ruby
   response:
@@ -65,7 +65,7 @@ http_interactions:
       message: NOT FOUND
     headers:
       Date:
-      - Tue, 23 Dec 2014 14:22:11 GMT
+      - Tue, 23 Dec 2014 23:34:47 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -83,7 +83,7 @@ http_interactions:
       Server:
       - cloudflare-nginx
       Cf-Ray:
-      - 19d535b95fb30a78-LHR
+      - 19d85f2d96df0a72-LHR
       Content-Encoding:
       - gzip
     body:
@@ -92,5 +92,5 @@ http_interactions:
         H4sIAAAAAAAAA6pWSkktSczMUbJS8ssvUUjLL81LUaoFAAAA//8DAN21v3kW
         AAAA
     http_version: 
-  recorded_at: Tue, 23 Dec 2014 14:22:11 GMT
+  recorded_at: Tue, 23 Dec 2014 23:34:46 GMT
 recorded_with: VCR 2.9.3

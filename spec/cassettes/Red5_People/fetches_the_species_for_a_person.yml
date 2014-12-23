@@ -19,7 +19,7 @@ http_interactions:
       message: MOVED PERMANENTLY
     headers:
       Date:
-      - Tue, 23 Dec 2014 13:54:04 GMT
+      - Tue, 23 Dec 2014 23:34:57 GMT
       Content-Type:
       - text/html; charset=utf-8
       Transfer-Encoding:
@@ -27,23 +27,23 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - __cfduid=d7afcd21ee5027456eba2d5c8f27f97a81419342843; expires=Wed, 23-Dec-15
-        13:54:03 GMT; path=/; domain=.swapi.co; HttpOnly
-      Location:
-      - http://swapi.co/api/people/15/
+      - __cfduid=d23ada375a5e88eaeb22407ed83a07c031419377697; expires=Wed, 23-Dec-15
+        23:34:57 GMT; path=/; domain=.swapi.co; HttpOnly
       X-Frame-Options:
       - SAMEORIGIN
+      Location:
+      - http://swapi.co/api/people/15/
       Via:
       - 1.1 vegur
       Server:
       - cloudflare-nginx
       Cf-Ray:
-      - 19d50c868cf30a78-LHR
+      - 19d85f6fd66b0a72-LHR
     body:
       encoding: UTF-8
       string: ''
     http_version: 
-  recorded_at: Tue, 23 Dec 2014 13:54:04 GMT
+  recorded_at: Tue, 23 Dec 2014 23:34:57 GMT
 - request:
     method: get
     uri: http://swapi.co/api/people/15/
@@ -56,7 +56,7 @@ http_interactions:
       Accept-Encoding:
       - gzip, deflate
       Cookie:
-      - __cfduid=d7afcd21ee5027456eba2d5c8f27f97a81419342843; domain=.swapi.co
+      - __cfduid=d23ada375a5e88eaeb22407ed83a07c031419377697; domain=.swapi.co
       User-Agent:
       - Ruby
   response:
@@ -65,7 +65,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 23 Dec 2014 13:54:04 GMT
+      - Tue, 23 Dec 2014 23:34:58 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -83,7 +83,7 @@ http_interactions:
       Server:
       - cloudflare-nginx
       Cf-Ray:
-      - 19d50c873c6f0a78-LHR
+      - 19d85f70925f0a72-LHR
       Content-Encoding:
       - gzip
     body:
@@ -96,7 +96,7 @@ http_interactions:
         /kLrjF/strXqXKxLazQZdcVWr+NCbUS3Efwo+oHLQfKtlIpz/tp+YHR/tY4f
         OzGQuWva86p9Zv/opRiTRxA7YD+/AAAA//8DAARbVvykAQAA
     http_version: 
-  recorded_at: Tue, 23 Dec 2014 13:54:04 GMT
+  recorded_at: Tue, 23 Dec 2014 23:34:57 GMT
 - request:
     method: get
     uri: http://swapi.co/api/species/4/
@@ -116,7 +116,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 23 Dec 2014 13:54:05 GMT
+      - Tue, 23 Dec 2014 23:34:58 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -124,8 +124,8 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - __cfduid=d48c121b2a779bcdea2158a82e38ba8f01419342844; expires=Wed, 23-Dec-15
-        13:54:04 GMT; path=/; domain=.swapi.co; HttpOnly
+      - __cfduid=d92a244fcf75d56c2ef59adcd25f11d511419377698; expires=Wed, 23-Dec-15
+        23:34:58 GMT; path=/; domain=.swapi.co; HttpOnly
       X-Frame-Options:
       - SAMEORIGIN
       Allow:
@@ -137,7 +137,7 @@ http_interactions:
       Server:
       - cloudflare-nginx
       Cf-Ray:
-      - 19d50c8a6f880a78-LHR
+      - 19d85f74b0030a72-LHR
       Content-Encoding:
       - gzip
     body:
@@ -151,5 +151,5 @@ http_interactions:
         9mL0BaHitJsztplbN7dmazetWbVuvWg21hjzNPXu6K/Nma2z7XLdNm5hm+bb
         NpZwoyZn9ISsG60+PgEAAP//AwBq5k+u1AEAAA==
     http_version: 
-  recorded_at: Tue, 23 Dec 2014 13:54:04 GMT
+  recorded_at: Tue, 23 Dec 2014 23:34:58 GMT
 recorded_with: VCR 2.9.3

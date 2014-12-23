@@ -19,7 +19,7 @@ http_interactions:
       message: MOVED PERMANENTLY
     headers:
       Date:
-      - Tue, 23 Dec 2014 13:53:59 GMT
+      - Tue, 23 Dec 2014 23:34:49 GMT
       Content-Type:
       - text/html; charset=utf-8
       Transfer-Encoding:
@@ -27,23 +27,23 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - __cfduid=dbcca3d2bd2c55b5676abb84adcfec1251419342839; expires=Wed, 23-Dec-15
-        13:53:59 GMT; path=/; domain=.swapi.co; HttpOnly
-      Location:
-      - http://swapi.co/api/planets/2/
+      - __cfduid=d4041aedc1a9a0c9c51c7792e346a6ed11419377689; expires=Wed, 23-Dec-15
+        23:34:49 GMT; path=/; domain=.swapi.co; HttpOnly
       X-Frame-Options:
       - SAMEORIGIN
+      Location:
+      - http://swapi.co/api/planets/2/
       Via:
       - 1.1 vegur
       Server:
       - cloudflare-nginx
       Cf-Ray:
-      - 19d50c69fd4f0a72-LHR
+      - 19d85f3ed7260a78-LHR
     body:
       encoding: UTF-8
       string: ''
     http_version: 
-  recorded_at: Tue, 23 Dec 2014 13:53:59 GMT
+  recorded_at: Tue, 23 Dec 2014 23:34:49 GMT
 - request:
     method: get
     uri: http://swapi.co/api/planets/2/
@@ -56,7 +56,7 @@ http_interactions:
       Accept-Encoding:
       - gzip, deflate
       Cookie:
-      - __cfduid=dbcca3d2bd2c55b5676abb84adcfec1251419342839; domain=.swapi.co
+      - __cfduid=d4041aedc1a9a0c9c51c7792e346a6ed11419377689; domain=.swapi.co
       User-Agent:
       - Ruby
   response:
@@ -65,7 +65,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 23 Dec 2014 13:54:00 GMT
+      - Tue, 23 Dec 2014 23:34:50 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -83,7 +83,7 @@ http_interactions:
       Server:
       - cloudflare-nginx
       Cf-Ray:
-      - 19d50c6b37730a78-LHR
+      - 19d85f403ba60a78-LHR
       Content-Encoding:
       - gzip
     body:
@@ -97,5 +97,5 @@ http_interactions:
         le62ut1qddDa7HvTjbvu5pbHu+cctO4n1qpDq0w/Gs3YuoqKLdkz81vRxDtG
         KrKV4uMTAAD//wMAMgUgfwACAAA=
     http_version: 
-  recorded_at: Tue, 23 Dec 2014 13:54:00 GMT
+  recorded_at: Tue, 23 Dec 2014 23:34:50 GMT
 recorded_with: VCR 2.9.3

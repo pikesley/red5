@@ -19,7 +19,7 @@ http_interactions:
       message: MOVED PERMANENTLY
     headers:
       Date:
-      - Tue, 23 Dec 2014 13:54:07 GMT
+      - Tue, 23 Dec 2014 23:34:53 GMT
       Content-Type:
       - text/html; charset=utf-8
       Transfer-Encoding:
@@ -27,23 +27,23 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - __cfduid=d4f33c5e1ca0cf3ceb01b6fe688915b7a1419342847; expires=Wed, 23-Dec-15
-        13:54:07 GMT; path=/; domain=.swapi.co; HttpOnly
-      Location:
-      - http://swapi.co/api/starships/12/
+      - __cfduid=d30cc595dff9aae9f5770cb5811a393da1419377693; expires=Wed, 23-Dec-15
+        23:34:53 GMT; path=/; domain=.swapi.co; HttpOnly
       X-Frame-Options:
       - SAMEORIGIN
+      Location:
+      - http://swapi.co/api/starships/12/
       Via:
       - 1.1 vegur
       Server:
       - cloudflare-nginx
       Cf-Ray:
-      - 19d50c9a2e1d0a78-LHR
+      - 19d85f5817cd0a72-LHR
     body:
       encoding: UTF-8
       string: ''
     http_version: 
-  recorded_at: Tue, 23 Dec 2014 13:54:07 GMT
+  recorded_at: Tue, 23 Dec 2014 23:34:53 GMT
 - request:
     method: get
     uri: http://swapi.co/api/starships/12/
@@ -56,7 +56,7 @@ http_interactions:
       Accept-Encoding:
       - gzip, deflate
       Cookie:
-      - __cfduid=d4f33c5e1ca0cf3ceb01b6fe688915b7a1419342847; domain=.swapi.co
+      - __cfduid=d30cc595dff9aae9f5770cb5811a393da1419377693; domain=.swapi.co
       User-Agent:
       - Ruby
   response:
@@ -65,7 +65,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 23 Dec 2014 13:54:07 GMT
+      - Tue, 23 Dec 2014 23:34:55 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -83,20 +83,20 @@ http_interactions:
       Server:
       - cloudflare-nginx
       Cf-Ray:
-      - 19d50c9b411f0a78-LHR
+      - 19d85f58c6370a72-LHR
       Content-Encoding:
       - gzip
     body:
       encoding: ASCII-8BIT
       string: !binary |-
-        H4sIAAAAAAAAA4RSTUvEMBT8K0vOu23TD7W9ehBBT+5BFAkxfdsG0yQkqXUR
-        /7svERHBuqHQZmbyZl5f3onmE5CO3O8WqQeyJZPpQSGw3501mx+U6/nARZgd
-        OCSvtTDT5tI4axwP0miUCOMDk5oJB70MHlW0bnEhpUAPYYxImTWp2hvjYTLe
-        juDQgHkL0Ee+aIpYysESd/hpufd4GlwsmDjuBsMEt1zIcIwqmmCj/TzxZwXJ
-        ebMAvCA8Hi243slXYDEo9oJkFg/cXt3sk2Pc+MCdH6VlQqEfwncIHOQwBmwX
-        Q0hlYkePZAzBdnnuF25lJkyOr9yCsQpymke/db49wdOLUwKs8LQlB6mm1SyJ
-        XI/yRZf/01WywRnwkIZSFrTe0RKfPaUdbbuiyaq6wPWAdeKwf8lKlJ13VdPV
-        dVa3tKyqKJtdvFR/mX7/e4yNwT4+AQAA//8DAPN/lCOSAgAA
+        H4sIAAAAAAAAAwAAAP//hFJNS8QwFPwrS867bdMPtb16EEFP7kEUCTF92wbT
+        JCSpdRH/uy8REcG6odBmZvJmXl/eieYTkI7c7xapB7Ilk+lBIbDfnTWbH5Tr
+        +cBFmB04JK+1MNPm0jhrHA/SaJQI4wOTmgkHvQweVbRucSGlQA9hjEiZNana
+        G+NhMt6O4NCAeQvQR75oiljKwRJ3+Gm593gaXCyYOO4GwwS3XMhwjCqaYKP9
+        PPFnBcl5swC8IDweLbjeyVdgMSj2gmQWD9xe3eyTY9z4wJ0fpWVCoR/Cdwgc
+        5DAGbBdDSGViR49kDMF2ee4XbmUmTI6v3IKxCnKaR791vj3B04tTAqzwtCUH
+        qabVLIlcj/JFl//TVbLBGfCQhlIWtN7REp89pR1tu6LJqrrA9YB14rB/yUqU
+        nXdV09V1Vre0rKoom128VH+Zfv97jI3BPj4BAAD//wMA83+UI5ICAAA=
     http_version: 
-  recorded_at: Tue, 23 Dec 2014 13:54:07 GMT
+  recorded_at: Tue, 23 Dec 2014 23:34:55 GMT
 recorded_with: VCR 2.9.3

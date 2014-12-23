@@ -19,7 +19,7 @@ http_interactions:
       message: MOVED PERMANENTLY
     headers:
       Date:
-      - Tue, 23 Dec 2014 13:53:57 GMT
+      - Tue, 23 Dec 2014 23:34:55 GMT
       Content-Type:
       - text/html; charset=utf-8
       Transfer-Encoding:
@@ -27,23 +27,23 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - __cfduid=d5c05063b38e6303f826ba163d63e99f91419342836; expires=Wed, 23-Dec-15
-        13:53:56 GMT; path=/; domain=.swapi.co; HttpOnly
-      Location:
-      - http://swapi.co/api/films/1/
+      - __cfduid=df7e7b1ac59176901f86b32a1db9fb2941419377695; expires=Wed, 23-Dec-15
+        23:34:55 GMT; path=/; domain=.swapi.co; HttpOnly
       X-Frame-Options:
       - SAMEORIGIN
+      Location:
+      - http://swapi.co/api/films/1/
       Via:
       - 1.1 vegur
       Server:
       - cloudflare-nginx
       Cf-Ray:
-      - 19d50c5af59e0a78-LHR
+      - 19d85f67556b0a72-LHR
     body:
       encoding: UTF-8
       string: ''
     http_version: 
-  recorded_at: Tue, 23 Dec 2014 13:53:57 GMT
+  recorded_at: Tue, 23 Dec 2014 23:34:55 GMT
 - request:
     method: get
     uri: http://swapi.co/api/films/1/
@@ -56,7 +56,7 @@ http_interactions:
       Accept-Encoding:
       - gzip, deflate
       Cookie:
-      - __cfduid=d5c05063b38e6303f826ba163d63e99f91419342836; domain=.swapi.co
+      - __cfduid=df7e7b1ac59176901f86b32a1db9fb2941419377695; domain=.swapi.co
       User-Agent:
       - Ruby
   response:
@@ -65,7 +65,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 23 Dec 2014 13:53:58 GMT
+      - Tue, 23 Dec 2014 23:34:56 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -83,29 +83,29 @@ http_interactions:
       Server:
       - cloudflare-nginx
       Cf-Ray:
-      - 19d50c5c4b100a78-LHR
+      - 19d85f6825880a72-LHR
       Content-Encoding:
       - gzip
     body:
       encoding: ASCII-8BIT
       string: !binary |-
-        H4sIAAAAAAAAAwAAAP//hJNRb9NADMe/ipUXXqKWwIDRt4lNG2KgaextQ5N7
-        5zbWkruT79JQ+PL4krKXqbtKUaX8bP/tv52/VeLUUbWqzuAHjXDlA1V1RYGj
-        t/TItlqd1JW+dOy2j0Zw7DT2awKOgBBI2FvwGzC84w5GlMWDPLhbWlMHMaCh
-        2HKINcQk/KQlMt2I7zW5ZWvJwRoj1dDijmD0LvPUEgtsWGKCHZvkZQ+4RXYx
-        HTBQVrvEDk1iAxd9YKFJOT/ng6gS5Lg1Jp2uhqmhzGJgitCjwy1ZSF4bI9RW
-        yQhN1UOHLmaQ0+fCb2IGQ5e4x6RdEgbv6ing/OLs7irTn3dntzWgA5Tei5ae
-        hp8UEyb2DkZOLZDzw7aF4EeSaRYPltQbv8+55JLKQW6B0vM4N4PEQSuu9y96
-        iuxYBxC1R3PV5hudXD2f4DUxguQVQOt7Alx7FAvtrKxtSd5NDWaIyVtWfd2j
-        KszUd7qbgxktJjDKY17SIT+QD50WdRZEJ9CZ89uNEFnd7sG/rW7o936hP70p
-        q23nZer9XJKXLcH1YDAqCeLtYGgiqMv+Nkj6o0tj8wTfzRfsuqHXMNOijqPj
-        xmp1X7UphdVyGUcMvDB+qX/Lualls9ToV/i7An9f4CcF/qHAPxb4pwI/LfDP
-        Bd68LQWUHGpKFjUlj5qSSU3JpaZkQ1Py4VQP5Zee3/S9HT+qGb9yNYeA454c
-        Ama5/1/eUcHngJeS/wAAAP//jJbPCoMwDMbfZXelie3o+hw77aoVCw5E2G57
-        90XtH2X7wNJbfrTJl6TpLwIvLQhUuiBQqYLgotkxsPN2zImglvISpd5+CO3o
-        oVDJjhsyE7CYMgGbLhN2S9/k24B9imb8BiUAyxABnNkIwKgTYFaHZbLJ2JJB
-        fmFFuiKuSN1JO25cQ7W1StZDTvJdOGIs2M1p2aZmc43Ya15+AP+u7cP4XAP/
-        fAEAAP//AwAhKm2rVggAAA==
+        H4sIAAAAAAAAA4STUW/TQAzHv4qVF16ilsCA0beJTRtioGnsbUOTe+c21pK7
+        k+/SUPjy+JKyl6m7SlGl/Gz/7b+dv1Xi1FG1qs7gB41w5QNVdUWBo7f0yLZa
+        ndSVvnTsto9GcOw09msCjoAQSNhb8BswvOMORpTFgzy4W1pTBzGgodhyiDXE
+        JPykJTLdiO81uWVrycEaI9XQ4o5g9C7z1BILbFhigh2b5GUPuEV2MR0wUFa7
+        xA5NYgMXfWChSTk/54OoEuS4NSadroapocxiYIrQo8MtWUheGyPUVskITdVD
+        hy5mkNPnwm9iBkOXuMekXRIG7+op4Pzi7O4q0593Z7c1oAOU3ouWnoafFBMm
+        9g5GTi2Q88O2heBHkmkWD5bUG7/PueSSykFugdLzODeDxEErrvcveorsWAcQ
+        tUdz1eYbnVw9n+A1MYLkFUDrewJcexQL7aysbUneTQ1miMlbVn3doyrM1He6
+        m4MZLSYwymNe0iE/kA+dFnUWRCfQmfPbjRBZ3e7Bv61u6Pd+oT+9Katt52Xq
+        /VySly3B9WAwKgni7WBoIqjL/jZI+qNLY/ME380X7Lqh1zDToo6j48ZqdV+1
+        KYXVchlHDLwwfql/y7mpZbPU6Ff4uwJ/X+AnBf6hwD8W+KcCPy3wzwXevC0F
+        lBxqShY1JY+akklNyaWmZENT8uFUD+WXnt/0vR0/qhm/cjWHgOOeHAJmuf9f
+        3lHB54CXkv8AAAD//4yWzwqDMAzG32V3pYnt6PocO+2qFQsORNhue/dF7R9l
+        +8DSW360yZek6S8CLy0IVLogUKmC4KLZMbDzdsyJoJbyEqXefgjt6KFQyY4b
+        MhOwmDIBmy4Tdkvf5NuAfYpm/AYlAMsQAZzZCMCoE2BWh2WyydiSQX5hRboi
+        rkjdSTtuXEO1tUrWQ07yXThiLNjNadmmZnON2GtefgD/ru3D+FwD/3wBAAD/
+        /wMAISptq1YIAAA=
     http_version: 
-  recorded_at: Tue, 23 Dec 2014 13:53:58 GMT
+  recorded_at: Tue, 23 Dec 2014 23:34:56 GMT
 recorded_with: VCR 2.9.3

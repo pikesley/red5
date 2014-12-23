@@ -19,7 +19,7 @@ http_interactions:
       message: MOVED PERMANENTLY
     headers:
       Date:
-      - Tue, 23 Dec 2014 13:54:01 GMT
+      - Tue, 23 Dec 2014 23:34:51 GMT
       Content-Type:
       - text/html; charset=utf-8
       Transfer-Encoding:
@@ -27,23 +27,23 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - __cfduid=df854b58e3b5895c6e2d919a307f18ce51419342841; expires=Wed, 23-Dec-15
-        13:54:01 GMT; path=/; domain=.swapi.co; HttpOnly
-      Location:
-      - http://swapi.co/api/species/9/
+      - __cfduid=d5d1a84c263896d09b8f79bd06971a0961419377691; expires=Wed, 23-Dec-15
+        23:34:51 GMT; path=/; domain=.swapi.co; HttpOnly
       X-Frame-Options:
       - SAMEORIGIN
+      Location:
+      - http://swapi.co/api/species/9/
       Via:
       - 1.1 vegur
       Server:
       - cloudflare-nginx
       Cf-Ray:
-      - 19d50c768a9a0a78-LHR
+      - 19d85f4c76b40a72-LHR
     body:
       encoding: UTF-8
       string: ''
     http_version: 
-  recorded_at: Tue, 23 Dec 2014 13:54:01 GMT
+  recorded_at: Tue, 23 Dec 2014 23:34:51 GMT
 - request:
     method: get
     uri: http://swapi.co/api/species/9/
@@ -56,7 +56,7 @@ http_interactions:
       Accept-Encoding:
       - gzip, deflate
       Cookie:
-      - __cfduid=df854b58e3b5895c6e2d919a307f18ce51419342841; domain=.swapi.co
+      - __cfduid=d5d1a84c263896d09b8f79bd06971a0961419377691; domain=.swapi.co
       User-Agent:
       - Ruby
   response:
@@ -65,7 +65,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 23 Dec 2014 13:54:01 GMT
+      - Tue, 23 Dec 2014 23:34:52 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -83,7 +83,7 @@ http_interactions:
       Server:
       - cloudflare-nginx
       Cf-Ray:
-      - 19d50c774ab50a78-LHR
+      - 19d85f4db4360a72-LHR
       Content-Encoding:
       - gzip
     body:
@@ -97,5 +97,5 @@ http_interactions:
         h3LGrubWze1mZ23jXGPMwm3WxpiXcfED/dWc2TnbLB+blVvY9VU7l3BnP87o
         CVlvtfr+AQAA//8DACsGrDHaAQAA
     http_version: 
-  recorded_at: Tue, 23 Dec 2014 13:54:01 GMT
+  recorded_at: Tue, 23 Dec 2014 23:34:52 GMT
 recorded_with: VCR 2.9.3
