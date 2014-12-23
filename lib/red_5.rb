@@ -14,3 +14,5 @@ require 'red_5/models/planets'
 require 'red_5/models/species'
 require 'red_5/models/starships'
 require 'red_5/models/vehicles'
+
+require 'red_5/exceptions/red_5_exception'
