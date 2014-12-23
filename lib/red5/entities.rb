@@ -12,6 +12,7 @@ module Red_5
 
     def initialize data
       @data = data
+      @data['id'] = @data['url'].split('/').last.to_i
     end
 
     def [] key

@@ -12,8 +12,14 @@ module Red_5
       expect(person['eye_color']).to eq 'blue'
     end
 
+    it 'has an id', :vcr do
+      person = People.find 13
+      expect(person['id']).to eq 13
+    end
+
     it 'gets the species for a person', :vcr do
-      expect(People.get_species(15)['name']).to eq 'Rodian'
+      person = People.find 15 # Greedo
+      expect(person.get_species['name']).to eq 'Rodian'
     end
   end
 end
