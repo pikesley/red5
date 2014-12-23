@@ -3,6 +3,8 @@ require 'json'
 
 require 'red5/version'
 
+require 'red5/helpers'
+
 require 'red5/root'
 require 'red5/entities'
 

@@ -23,24 +23,22 @@ module Red_5
       mname = method_name.to_s
       parts = mname.split('_')
 
-      if parts[0] == 'get'
-        key = parts[1]
-        url = self[key]
+      case parts[0]
+        when 'get'
+          key = parts[1]
+          url = self[key]
 
-        url = [url] unless url.class == Array
-        results = []
-        url.each do |u|
-          r = RestClient::Resource.new u
-          b = r.get.body
-          j = JSON.parse b
-          results.push j
-        end
+          url = [url] unless url.class == Array
+          results = []
+          url.each do |u|
+            results.push Red_5.fetch_results u
+          end
 
-        unless self[key].class == Array
-          return results.first
-        end
+          unless self[key].class == Array
+            return results.first
+          end
 
-        results
+          results
       end
     end
   end
