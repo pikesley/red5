@@ -23,7 +23,7 @@ module Red5
     end
 
     def [] key
-      @data[key]
+      @data[key] || raise(Red5Exception.new "No such attribute #{key}")
     end
 
     def method_missing method_name, *args
