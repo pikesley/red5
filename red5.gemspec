@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = Red5::VERSION
   spec.authors       = ['pikesley']
   spec.email         = ['sam@pikesley.org']
-  spec.summary       = %q{SWAPI bindings}
+  spec.summary       = %q{Ruby bindings for the Star Wars API}
   spec.description   = %q{}
   spec.homepage      = ''
   spec.license       = 'MIT'
