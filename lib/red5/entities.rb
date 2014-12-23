@@ -3,7 +3,19 @@ module Red_5
     def self.find id
       slug = self.name.split('::').last.downcase
       resource = RestClient::Resource.new "http://swapi.co/api/#{slug}/#{id}"
-      JSON.parse resource.get.body
+      self.new JSON.parse resource.get.body
+    end
+
+    def self.first
+      self.find 1
+    end
+
+    def initialize data
+      @data = data
+    end
+
+    def [] key
+      @data[key]
     end
   end
 end

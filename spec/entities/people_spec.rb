@@ -2,7 +2,12 @@ require 'spec_helper'
 
 module Red_5
   describe People do
-    it 'finds a person', :vcr do
+    it 'returns a person', :vcr do
+      person = People.find 1
+      expect(person.class).to eq People
+    end
+
+    it 'finds a particular person', :vcr do
       person = People.find 7 # Aunt Beru
       expect(person['eye_color']).to eq 'blue'
     end
