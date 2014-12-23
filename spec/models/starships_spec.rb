@@ -9,7 +9,10 @@ module Red5
 
     context 'Failure' do
       it 'raises an exception on a non-existent thing', :vcr do
-        expect(Starships.find 999).to raise Red5::Red5Exception
+        expect{ Starships.find 999 }.to raise_exception do |exception|
+          expect(exception).to be_a Red5Exception
+          expect(exception.status).to eq 'Starship #999 does not exist'
+        end
       end
     end
   end

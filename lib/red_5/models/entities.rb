@@ -1,15 +1,14 @@
 module Red5
   class Entities
     def self.find id
-      slug = self.name.split('::').last.downcase
+      basename = self.name.split('::').last
+      slug = basename.downcase
       resource = RestClient::Resource.new "http://swapi.co/api/#{slug}/#{id}"
 
       begin
         self.new JSON.parse resource.get.body
       rescue RestClient::ResourceNotFound
-        require 'pry'
-        binding.pry
-        raise Red5Exception.new 'Entity does not exist'
+        raise Red5Exception.new "#{basename.singularize} ##{id} does not exist"
       end
     end
 

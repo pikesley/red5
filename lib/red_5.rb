@@ -1,5 +1,6 @@
 require 'rest_client'
 require 'json'
+require 'active_support/core_ext/string'
 
 require 'red_5/version'
 
