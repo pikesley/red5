@@ -1,0 +1,111 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://swapi.co/api/films/2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 301
+      message: MOVED PERMANENTLY
+    headers:
+      Date:
+      - Tue, 23 Dec 2014 14:36:57 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d2fe2dfbf4c2c57a775fbe311bec700ab1419345416; expires=Wed, 23-Dec-15
+        14:36:56 GMT; path=/; domain=.swapi.co; HttpOnly
+      Location:
+      - http://swapi.co/api/films/2/
+      X-Frame-Options:
+      - SAMEORIGIN
+      Via:
+      - 1.1 vegur
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 19d54b5782210a72-LHR
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Tue, 23 Dec 2014 14:36:57 GMT
+- request:
+    method: get
+    uri: http://swapi.co/api/films/2/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      Cookie:
+      - __cfduid=d2fe2dfbf4c2c57a775fbe311bec700ab1419345416; domain=.swapi.co
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 23 Dec 2014 14:36:57 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Frame-Options:
+      - SAMEORIGIN
+      Allow:
+      - GET, HEAD, OPTIONS
+      Vary:
+      - Accept, Cookie
+      Via:
+      - 1.1 vegur
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 19d54b58d7fa0a72-LHR
+      Content-Encoding:
+      - gzip
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA3xSwY7UMAz9Favn0VQgcZkbsCtYLVx2ERdWWrmJ21hN48hJ
+        Zyj8PE5hVnChUlU179l+7zk/u8o1UnfqvgSC2yWzEjxW5ZkKvEM3d4eOMhfx
+        9My+O705dJIpcZqeneIlWuFdBS6A4FFnqLwQjKJQAz3pU3qggWJkSUd4G2uQ
+        dQoNghvCGhrhsaJCwAIDUQJPpaps5A8Nu1syKWMEO5NcjHYm8MpnY/7dvw10
+        pndUWRrA1pG9p9QYAxYCTB7yqmUl3wgLoFMppeFNzYQRv2/H9tve2zN6c7gL
+        9Uroreqq5ap5jET1YLYnlTWDjDadyMvSCCNPoZIWiFY5bPBpnS3VebtgnEkb
+        ozk2rzhELsFICIkuUMgp1RfVstsEpUUqATuCi2j0Dbd5H6WGF8lte3TmCFHU
+        ww1qDfDVhOsepAyFSrExF7bzkdNub5M1Tbufq7LDvgnPJWN1Jut3PrIWy680
+        j3+kZJXB8uZU5RrhaGu0qKxqJ1oHR0d77P54u1Ouira7omdOcG/RhERqmHXy
+        q6OGfUDd4H6tPw7wwG6Gz+49xrguxnIBFV1LtDt960Kt+dT35YKZj056+/SZ
+        JEfqX/XG/g/++h/8FwAAAP//jJZNDoIwEIXvwl7sDFCQc7AycUGwxiZoiFF3
+        3t0KhRL1MSTs3pfOz5sp/dUTQU8FPRN0UhIgZUBSClQIAEs5sNhFqY0sVcFS
+        FSx1kvU2Orj5aeurueOxGOQF3zyAw3lASwDnfUJup91w2w6mNAELwzBjoBcz
+        BtoxY2CBgcG+z5gVsbD7gVmB0NDQpznbpjWwn6O+sBkTgkc/nAKNDgjcsIDs
+        RKQYxqUzjcXFeRnfayOAbfEAbrgHYN0jMNjhflD13biXQMSK0g2x+yqiknXJ
+        aawzrZTau5PM0X5hWUVJqfIyS+KkGLHH7fOE+Bf2ZNtLX9frDQAA//8DAO9M
+        e/ykCAAA
+    http_version: 
+  recorded_at: Tue, 23 Dec 2014 14:36:57 GMT
+recorded_with: VCR 2.9.3
