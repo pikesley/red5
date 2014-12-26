@@ -21,7 +21,7 @@ module Red5
       list = []
       basename = self.name.split('::').last
       slug = basename.downcase
-      resource = RestClient::Resource.new "http://swapi.co/api/#{slug}/?page=1"
+      resource = RestClient::Resource.new "http://swapi.co/api/#{slug}/"
       has_more = true
 
       while has_more
